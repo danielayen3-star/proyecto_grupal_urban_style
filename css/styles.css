@@ -1,6 +1,6 @@
 @font-face {
   font-family: "PTSerif";
-  src: url("../fuentes/PTSerif-Regular.ttf") format("truetype");
+  src: url("../fuentes/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
   font-weight: 400;
 }
 @font-face {
@@ -10,13 +10,14 @@
 }
 
 @font-face {
-  font-family: "PTSerif";
-  src: url("../fuentes/PTSerif-BoldItalic.ttf") format("truetype");
+  font-family: "Inter";
+  src: url("../fuentes/Inter-Italic-VariableFont_opsz\,wght.ttf")
+    format("truetype");
   font-weight: 300;
 }
 body {
   background-color: rgb(229, 230, 217);
-  font-family: "PTSerif";
+  font-family: "Inter";
   font-weight: 400;
 }
 
@@ -25,8 +26,84 @@ h2,
 h3 {
   font-family: "PTSerif";
   font-weight: 700;
+  margin: 10px;
 }
 p {
-  font-family: "PTSerif";
+  font-family: "Inter";
   font-weight: 300;
+  text-align: justify;
+  margin: 10px;
+}
+.parrafo_titulo {
+  text-align: center;
+}
+.titulo {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 2px;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 2px;
+}
+.video_principal {
+  display: block;
+  margin: auto;
+}
+
+.menu-navegacion a:hover {
+  background-color: whitesmoke;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+nav {
+  width: 100%;
+  background: black;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.imagenes_mujer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.imagenes_hombre {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.ropa_hombre {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.ropa_mujer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
 }

@@ -9,91 +9,121 @@
   </head>
   <body>
     <header>
-      <a href="index.html">Inicio</a> | <a href="productos.html">Productos</a> |
-      <a href="servicios.html">Servicios</a> |
-      <a href="contacto.html">Contacto</a>
+      <nav class="menu-navegacion">
+        <a href="index.html">Inicio</a> |
+        <a href="productos.html">Productos</a> |
+        <a href="servicios.html">Servicios</a> |
+        <a href="contacto.html">Contacto</a>
+      </nav>
     </header>
-    <h1>Urban Style</h1>
-    <p>"Donde la moda no tiene género"</p>
-    <p>
+    <h1 class="titulo">Urban Style</h1>
+    <p class="slogan">"Donde la moda no tiene género"</p>
+    <p class="parrafo_titulo">
       "Más que ropa, una actitud. En Urban Style fusionamos el estilo urbano con
       la máxima comodidad. Encuentra prendas únicas que hablan por ti y redefine
       tu look diario."
     </p>
     <video
+      class="video_principal"
       src="video/hombre_bailando.mp4"
       controls
       autoplay
       poster="imagenes/portada.png"
-      width="50%"
+      width="100%"
     ></video>
     <br />
     <br />
-    <h2>Ropa de mujer</h2>
-    <video
-      src="video/mujer_corriendo.mp4"
-      controls
-      autoplay
-      poster="imagenes/portadamujer.png"
-      width="50%"
-    ></video>
-    <p>
-      Descubre nuestra colección urbana diseñada para mujeres auténticas y
-      seguras. Prendas modernas, cómodas y versátiles que se adaptan a tu estilo
-      diario, combinando tendencia y actitud en cada look.
-    </p>
-    <br />
-    <img src="imagenes/ropa_mujer.jpg" alt="ropa mujer" />
-    <img
-      src="imagenes/falda_chompa.jpeg"
-      alt="mujer usando falda color guinda y chompa crema"
-    />
-    <img
-      src="imagenes/mujer_chaleco_jeans.jpeg"
-      alt="mujer usando un chaleco jeans"
-    />
-    <img
-      src="imagenes/mujer_polo_jeans.jpeg"
-      alt="mujer usando un pantalon jean y un polo basico de color acero"
-    />
-    <img
-      src="imagenes/vestido_negro.jpeg"
-      alt="mujer usando un vestido negro"
-    />
-    <br />
-    <h2>Ropa de hombre</h2>
-    <p>
-      Descubre nuestra colección urbana para hombre: prendas modernas, cómodas y
-      versátiles que se adaptan a tu ritmo diario. Encuentra polos, camisas,
-      joggers, casacas y más, diseñados para marcar estilo con actitud en cada
-      ocasión.
-    </p>
-    <br />
-    <img src="imagenes/ropa_hombre.jpg" alt="ropa de hombre" />
-    <img
-      src="imagenes/hombre_ropa_azul.jpeg"
-      alt="hombre visitiendo ropa jeans"
-    />
-    <img
-      src="imagenes/hombre_short_camisa.jpeg"
-      alt="hombre vistiendo short y camisa urbana"
-    />
-    <img
-      src="imagenes/vestimenta_color_marron.jpeg"
-      alt="hombre con ropa de color marron"
-    />
-    <img src="imagenes/hombre_gorra.jpeg" alt="hombre usando gorra" />
+    <section class="ropa-mujer">
+      <h2>Ropa de mujer</h2>
+      <p>
+        Descubre tu estilo con nuestra colección urbana para mujer, diseñada
+        para quienes viven la moda con actitud y personalidad. Aquí encontrarás
+        prendas cómodas, versátiles y llenas de carácter, perfectas para
+        acompañarte en tu día a día sin perder ese toque único que te define.
+        Desde outfits relajados hasta combinaciones más atrevidas, nuestra ropa
+        está pensada para adaptarse a tu ritmo, resaltando tu autenticidad en
+        cada paso. Porque la moda urbana no solo se viste… se vive. Atrévete a
+        destacar, mezcla, crea y expresa quién eres con cada prenda. Tu estilo,
+        tus reglas.
+      </p>
+      <video
+        class="video_nujer"
+        src="video/mujer_corriendo.mp4"
+        controls
+        autoplay
+        poster="imagenes/portadamujer.png"
+        width="50%"
+      ></video>
+      <p>
+        Descubre nuestra colección urbana diseñada para mujeres auténticas y
+        seguras. Prendas modernas, cómodas y versátiles que se adaptan a tu
+        estilo diario, combinando tendencia y actitud en cada look.
+      </p>
+      <br />
+      <section class="imagenes_mujer">
+        <img src="imagenes/ropa_mujer.jpg" alt="ropa mujer" />
+        <img
+          src="imagenes/falda_chompa.jpeg"
+          alt="mujer usando falda color guinda y chompa crema"
+        />
+        <img
+          src="imagenes/mujer_chaleco_jeans.jpeg"
+          alt="mujer usando un chaleco jeans"
+        />
+        <img
+          src="imagenes/mujer_polo_jeans.jpeg"
+          alt="mujer usando un pantalon jean y un polo basico de color acero"
+        />
+        <img
+          src="imagenes/vestido_negro.jpeg"
+          alt="mujer usando un vestido negro"
+        />
+        <br />
+      </section>
+    </section>
+    <section class="ropa-hombre">
+      <h2>Ropa de hombre</h2>
+      <p>
+        Descubre nuestra colección urbana para hombre: prendas modernas, cómodas
+        y versátiles que se adaptan a tu ritmo diario. Encuentra polos, camisas,
+        joggers, casacas y más, diseñados para marcar estilo con actitud en cada
+        ocasión.
+      </p>
+      <br />
+      <section class="imagenes_hombre">
+        <img src="imagenes/ropa_hombre.jpg" alt="ropa de hombre" />
+        <img
+          src="imagenes/hombre_ropa_azul.jpeg"
+          alt="hombre visitiendo ropa jeans"
+        />
+        <img
+          src="imagenes/hombre_short_camisa.jpeg"
+          alt="hombre vistiendo short y camisa urbana"
+        />
+        <img
+          src="imagenes/vestimenta_color_marron.jpeg"
+          alt="hombre con ropa de color marron"
+        />
+        <img src="imagenes/hombre_gorra.jpeg" alt="hombre usando gorra" />
 
-    <br /><br />
-    <audio src="audio/audio_urbano.mpeg" controls></audio>
-    <br /><br />
-    <footer>
+        <br /><br />
+      </section>
+      <audio src="audio/audio_urbano.mpeg" controls></audio>
+      <br /><br />
+    </section>
+    <footer class="pie_pagina">
       <hr />
       <h3>Urban Style</h3>
 
-      <p><strong>Dirección:</strong> Av. Moda Urbana 123 - Lima, Perú</p>
-      <p><strong>Teléfono:</strong> +51 999 888 777</p>
-      <p><strong>Email:</strong> contacto@urbanstyle.pe</p>
+      <p><strong>Dirección:</strong> <br />Av. Moda Urbana 123 - Lima, Perú</p>
+      <p>
+        <strong>Teléfono:</strong> <br />
+        +51 999 888 777
+      </p>
+      <p>
+        <strong>Email:</strong> <br />
+        contacto@urbanstyle.pe
+      </p>
 
       <p><strong>Horario de atención:</strong></p>
       <ul>
