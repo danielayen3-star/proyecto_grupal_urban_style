@@ -16,94 +16,359 @@
   font-weight: 300;
 }
 body {
-  background-color: rgb(229, 230, 217);
-  font-family: "Inter";
+  background-color: #f5f5f5;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
+  color: #1a1a1a;
+  line-height: 1.6;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "PTSerif";
+  font-family: "PTSerif", serif;
   font-weight: 700;
-  margin: 10px;
+  letter-spacing: -0.5px;
 }
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+}
+
 p {
-  font-family: "Inter";
-  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
   text-align: justify;
-  margin: 10px;
-}
-.parrafo_titulo {
-  text-align: center;
-}
-.titulo {
-  text-align: center;
-  font-size: 45px;
-  margin-bottom: 2px;
-}
-
-.slogan {
-  text-align: center;
-  font-size: 15px;
-  margin-top: 2px;
-}
-.video_principal {
-  display: block;
-  margin: auto;
-}
-
-.menu-navegacion a:hover {
-  background-color: whitesmoke;
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  border-radius: 4px;
+  max-width: 100%;
+  color: #333;
 }
 
 nav {
   width: 100%;
-  background: black;
+  background: #0d0d0d;
   display: flex;
-  justify-content: space-evenly;
-  padding: 10px 15px;
+  justify-content: center;
+  gap: 40px;
+  padding: 16px 20px;
   box-sizing: border-box;
 }
 
 nav a {
-  color: white;
+  color: #fff;
   text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  padding: 6px 12px;
 }
 
-.imagenes_mujer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 20px;
+nav a:hover {
+  background-color: #fff;
+  color: #0d0d0d;
+  border-radius: 2px;
 }
+
+.titulo {
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 50px 0 5px;
+  letter-spacing: 4px;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 1rem;
+  font-style: italic;
+  color: #555;
+  margin: 0 0 10px;
+  letter-spacing: 1px;
+}
+
+.parrafo_titulo {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  font-size: 0.95rem;
+  color: #555;
+  padding: 0 20px;
+}
+
+.video_principal {
+  display: block;
+  margin: 0 auto 40px;
+  max-width: 100%;
+}
+
+.video_nujer {
+  display: block;
+  margin: 20px auto;
+  max-width: 750px;
+  width: 100%;
+}
+
+section {
+  padding: 40px 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ropa-mujer,
+.ropa-hombre {
+  padding: 50px 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ropa-mujer {
+  background-color: #fff;
+  margin-bottom: 2px;
+}
+
+.ropa-hombre {
+  background-color: #ebebeb;
+  margin-bottom: 2px;
+}
+
+.imagenes_mujer,
 .imagenes_hombre {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 20px;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+  margin-bottom: 20px;
 }
-footer {
+
+.imagenes_mujer img,
+.imagenes_hombre img {
+  /* width: 340px;
+  height: 420px;
+  object-fit: cover;*/
+  border-radius: 4px;
+}
+
+audio {
+  display: block;
+  margin: 30px auto;
+  width: 100%;
+  max-width: 500px;
+}
+
+.bienvenida {
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: center;
+  padding: 40px 5%;
+  margin-bottom: 10px;
+}
+
+.bienvenida p {
+  color: #ccc;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.05rem;
+}
+
+.productos {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.productos p {
+  text-align: center;
+  margin: 0 auto 20px;
+}
+
+.buscador {
+  padding: 12px 20px;
+  width: 320px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #1a1a1a;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+}
+
+.productos button {
+  padding: 12px 28px;
+  background-color: #1a1a1a;
+  color: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #1a1a1a;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 1px;
+}
+
+.productos button:hover {
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
+.categorias {
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.lista-categorias {
+  list-style: none;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
 }
-.ropa_hombre {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  gap: 20px;
+
+.lista-categorias li {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  border-radius: 2px;
 }
+
+.ropa_hombre,
 .ropa_mujer {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 5%;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+.ropa_hombre article,
+.ropa_mujer article {
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e0e0e0;
+  padding: 0;
+  width: 300px;
+}
+
+.ropa_hombre article img,
+.ropa_mujer article img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+}
+
+.ropa_hombre article h3,
+.ropa_mujer article h3 {
+  padding: 16px 20px 4px;
+  font-size: 1.1rem;
+}
+
+.ropa_hombre article p,
+.ropa_mujer article p {
+  padding: 0 20px;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.boton-comprar {
+  display: block;
+  width: 90%;
+  margin: 16px auto 20px;
+  padding: 12px;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+}
+
+.boton-comprar:hover {
+  background-color: #333;
+}
+
+.promociones table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.promociones th {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 14px 16px;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.promociones td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 0.9rem;
+}
+
+.promociones tr:hover td {
+  background-color: #f0f0f0;
+}
+
+.opiniones {
+  background-color: #ebebeb;
+  margin-bottom: 20px;
+}
+
+.contactanos {
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+
+footer,
+.pie_pagina {
+  background-color: #0d0d0d;
+  color: #ccc;
+  padding: 50px 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 100%;
+}
+
+footer h3,
+.pie_pagina h3 {
+  color: #fff;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+
+footer p,
+.pie_pagina p {
+  color: #aaa;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+footer ul,
+.pie_pagina ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li,
+.pie_pagina li {
+  color: #aaa;
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+}
+
+footer hr,
+.pie_pagina hr {
+  display: none;
 }

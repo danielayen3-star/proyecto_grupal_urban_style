@@ -3,19 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <title>Urban Style - Tienda de Ropa Urbana</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- cambios a revisar -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
 
   <body>
     <header>
       <nav class="menu-navegacion">
-        <a href="index.html">Inicio</a> |
-        <a href="productos.html">Productos</a> |
-        <a href="servicios.html">Servicios</a> |
-        <a href="contacto.html">Contacto</a>
+        <a href="index.html">INICIO</a> |
+        <a href="productos.html">PRODUCTOS</a> |
+        <a href="servicios.html">SERVICIOS</a> |
+        <a href="contacto.html">CONTACTO</a>
       </nav>
     </header>
-    <h1 class="titulo">Urban Style</h1>
+    <h1 class="titulo">URBAN STYLE</h1>
     <section class="bienvenida">
       <p>
         Bienvenido a Urban Style, una tienda especializada en moda urbana
@@ -32,8 +38,8 @@
         Utiliza el buscador para encontrar rápidamente la prenda que deseas.
       </p>
 
-      <input type="text" placeholder="Buscar producto" />
-      <button>Buscar</button>
+      <input type="text" class="buscador" placeholder="Buscar producto" />
+      <button>BUSCAR</button>
     </section>
 
     <section class="categorias">
@@ -44,13 +50,13 @@
         para todos los estilos.
       </p>
 
-      <ul class="categorias">
-        <li>Sudaderas urbanas</li>
-        <li>Polos streetwear</li>
-        <li>Pantalones cargo</li>
-        <li>Casacas urbanas</li>
-        <li>Joggers modernos</li>
-        <li>Ropa oversize</li>
+      <ul class="lista-categorias">
+        <li>SUDADERAS URBANAS</li>
+        <li>POLOS STREETWEAR</li>
+        <li>PANTALONES CARGO</li>
+        <li>CASACAS URBANAS</li>
+        <li>JOGGERS MODERNOS</li>
+        <li>ROPA OVERSIZE</li>
       </ul>
     </section>
     <section>
@@ -79,7 +85,7 @@
 
         <p><strong>Precio:</strong> S/129.00</p>
 
-        <button>Comprar</button>
+        <button class="boton-comprar">COMPRAR</button>
       </article>
 
       <article>
@@ -94,7 +100,7 @@
 
         <p><strong>Precio:</strong> S/79.00</p>
 
-        <button>Comprar</button>
+        <button class="boton-comprar">COMPRAR</button>
       </article>
 
       <article>
@@ -113,7 +119,7 @@
 
         <p><strong>Precio:</strong> S/149.00</p>
 
-        <button>Comprar</button>
+        <button class="boton-comprar">COMPRAR</button>
       </article>
     </section>
     <section>
@@ -138,7 +144,7 @@
 
         <p><strong>Precio:</strong> S/189.00</p>
 
-        <button>Comprar</button>
+        <button class="boton-comprar">COMPRAR</button>
       </article>
 
       <article>
@@ -154,7 +160,7 @@
 
         <p><strong>Precio:</strong> S/69.00</p>
 
-        <button>Comprar</button>
+        <button class="boton-comprar">COMPRAR</button>
       </article>
 
       <article>
@@ -170,7 +176,7 @@
 
         <p><strong>Precio:</strong> S/119.00</p>
 
-        <button>Comprar</button>
+        <button class="boton-comprar">COMPRAR</button>
       </article>
     </section>
 
@@ -182,11 +188,11 @@
         clientes.
       </p>
 
-      <table border="1">
+      <table>
         <tr>
-          <th>Promoción</th>
-          <th>Descripción</th>
-          <th>Vigencia</th>
+          <th>PROMOCIÓN</th>
+          <th>DESCRIPCIÓN</th>
+          <th>VIGENCIA</th>
         </tr>
 
         <tr>
@@ -215,16 +221,12 @@
       </table>
     </section>
 
-    <section class="Opiniones">
+    <section class="opiniones">
       <h2>Opiniones de clientes</h2>
 
-      <blockquote>
-        "La calidad de la ropa es excelente y el estilo es muy moderno."
-      </blockquote>
+      <p>"La calidad de la ropa es excelente y el estilo es muy moderno."</p>
 
-      <blockquote>
-        "Me encantaron los productos, definitivamente volveré a comprar."
-      </blockquote>
+      <p>"Me encantaron los productos, definitivamente volveré a comprar."</p>
     </section>
 
     <section class="contactanos">
@@ -240,27 +242,24 @@
       <p><strong>Email:</strong> contacto@urbanstyle.pe</p>
     </section>
 
-    <hr />
+    <footer class="pie_pagina">
+      <h3>URBAN STYLE</h3>
 
-    <footer>
-      <h3>Urban Style</h3>
-
-      <p>
-        Urban Style es una tienda dedicada a ofrecer moda urbana moderna para
-        hombres y mujeres.
-      </p>
+      <p><strong>Dirección:</strong> Av. Moda Urbana 123 - Lima, Perú</p>
+      <p><strong>Teléfono:</strong> +51 999 888 777</p>
+      <p><strong>Email:</strong> contacto@urbanstyle.pe</p>
 
       <p><strong>Horario de atención:</strong></p>
-
       <ul>
         <li>Lunes a Viernes: 9:00 am - 8:00 pm</li>
         <li>Sábados: 10:00 am - 6:00 pm</li>
         <li>Domingos: Cerrado</li>
       </ul>
 
-      <p>Síguenos en redes sociales: Facebook | Instagram | TikTok</p>
+      <p><strong>Síguenos en redes sociales:</strong></p>
+      <p>Facebook | Instagram | TikTok</p>
 
-      <p>© 2026 Urban Style - Todos los derechos reservados</p>
+      <p>&copy; 2026 Urban Style - Todos los derechos reservados</p>
     </footer>
   </body>
 </html>
