@@ -143,9 +143,6 @@ section {
 
 .imagenes_mujer img,
 .imagenes_hombre img {
-  /* width: 340px;
-  height: 420px;
-  object-fit: cover;*/
   border-radius: 4px;
 }
 
